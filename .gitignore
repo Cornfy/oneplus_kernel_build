@@ -5,3 +5,11 @@
 *.Identifier
 *.orig
 *.rej
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+
+# Local firmware and device backups
+/op12_flash/
+/rescue-backup/
